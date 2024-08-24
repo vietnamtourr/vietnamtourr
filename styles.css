@@ -19,7 +19,7 @@ header {
     color: black;
     padding: 50px;
     text-align: center;
-    display: flex;
+    display: contents;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -89,4 +89,39 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header .logo img {
+        width: 150px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    .articles {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .articles article {
+        padding: 10px;
+    }
+
+    .articles article h2 {
+        font-size: 18px;
+    }
+
+    .articles article p {
+        font-size: 12px;
+    }
 }
