@@ -4,11 +4,20 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+.container {
+    width: 1100px;
+    margin: 20px auto; /* Centers the container horizontally */
+    background-color: white;
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    padding: 20px; /* Optional padding inside the container */
+}
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
+  background-color: #cffffa75;
+  border-radius: 20px;
+    color: black;
+    padding: 50px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -33,13 +42,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 18px;
 }
 
 main {
     padding: 20px;
+  
 }
 
 .articles {
@@ -50,7 +60,7 @@ main {
 }
 
 .articles article {
-    background-color: white;
+    background-color: #dbd2d25e;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 1 0 20px rgba(0, 0, 1, 0.1);
@@ -74,9 +84,9 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: black;
     color: white;
+    padding: 20px;
     text-align: center;
-    padding: 10px 0;
     margin-top: 20px;
 }
